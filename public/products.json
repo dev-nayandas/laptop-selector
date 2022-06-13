@@ -1,0 +1,66 @@
+[
+    {
+        "img": "https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "id": 1,
+        "quantity": 0,
+        "name": "Asus",
+        "price": 59000
+    },
+    {
+        "img": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "id": 2,
+        "quantity": 0,
+        "name": "Acer",
+        "price": 57000
+    },
+    {
+        "img": "https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "id": 3,
+        "quantity": 0,
+        "name": "Lenevo",
+        "price": 49000
+    },
+    {
+        "img": "https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "id": 4,
+        "quantity": 0,
+        "name": "Dell",
+        "price": 39000
+    },
+    {
+        "img": "https://images.pexels.com/photos/1006293/pexels-photo-1006293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "id": 5,
+        "quantity": 0,
+        "name": "Toshiba",
+        "price": 69000
+    },
+    {
+        "img": "https://images.pexels.com/photos/109371/pexels-photo-109371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "id": 6,
+        "quantity": 0,
+        "name": "Samsung",
+        "price": 52000
+    },
+    {
+        "img": "https://images.pexels.com/photos/812264/pexels-photo-812264.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "id": 7,
+        "quantity": 0,
+        "name": "Apple",
+        "price": 79000
+    },
+    {
+        "img": "https://images.pexels.com/photos/69432/pexels-photo-69432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "id": 8,
+        "quantity": 0,
+        "name": "Fujitsu",
+        "price": 79000
+    },
+    {
+        "img": "https://images.pexels.com/photos/461064/pexels-photo-461064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "id": 9,
+        "quantity": 0,
+        "name": "Sony",
+        "price": 59000
+    }
+   
+]
