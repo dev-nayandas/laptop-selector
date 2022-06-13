@@ -3,7 +3,7 @@ import './Bonus.css'
 
 const Bonus = () => {
     return (
-        <div>
+        <div className="question">
            <h1>How React Works</h1>
            <h4>
             1. Reacts works by its virtual DOM.
