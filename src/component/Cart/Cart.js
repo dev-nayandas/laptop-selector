@@ -1,5 +1,5 @@
-// import { faFaceSmile, faTrash } from '@fortawesome/free-solid-svg-icons';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFaceSmile, faTrash } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import './Cart.css';
 
@@ -32,29 +32,29 @@ const Cart = ({ cart, clickDeleteToCart }) => {
                     <div className="cart-item" key={id}>
                         <img
                             className='cart-item-image'
-                            src={item.pairImage}
+                            src={item.img}
                             alt=""
                         />
                         <div className='product-info'>
                             <p>{item.name}</p>
                         </div>
                         <button className='delete'>
-                            {/* <FontAwesomeIcon icon={faTrash} /> */}
+                            <FontAwesomeIcon icon={faTrash} />
                         </button>
                     </div>
                 ))
             }
             <div>
                 <button className={addProduct ? "get-one-btn" : "get-one-btn-disable"} onClick={getOneForMe} disabled={!addProduct}>Get One For Me
-                    {/* <FontAwesomeIcon icon={faFaceSmile} /> */}
+                    <FontAwesomeIcon icon={faFaceSmile} />
                 </button>
                 <button className={addProduct ? "all-delete" : "all-delete-disable"} onClick={clickDeleteToCart} disabled={!addProduct}>Clear All Products
-                    {/* <FontAwesomeIcon icon={faTrash} /> */}
+                    <FontAwesomeIcon icon={faTrash} />
                 </button>
                 {Object.keys(freeProducts).length > 0 && <div className="cart-item">
                     <img
                         className='cart-item-image'
-                        src={freeProducts.pairImage}
+                        src={freeProducts.img}
                         alt=""
                     />
                     <div className='product-info'>
